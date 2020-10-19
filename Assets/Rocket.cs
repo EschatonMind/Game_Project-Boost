@@ -58,7 +58,8 @@ public class Rocket : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (isTransitioning || collisionsDisabled) {
+        if (isTransitioning || collisionsDisabled)
+        { 
              return;
 
         }
